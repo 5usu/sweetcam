@@ -1,4 +1,14 @@
-use sweetcam;
+CREATE DATABASE IF NOT EXISTS honeydb;
+USE honeydb;
+
+-- Add any initial tables your application needs
+CREATE TABLE IF NOT EXISTS users (
+    -- Add your user table schema
+);
+
+CREATE TABLE IF NOT EXISTS cameras (
+    -- Add your camera table schema
+);
 
 CREATE TABLE `admins`
 (
